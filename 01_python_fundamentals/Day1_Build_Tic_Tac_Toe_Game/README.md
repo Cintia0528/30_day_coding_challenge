@@ -1,6 +1,23 @@
-The goal is to build a simple Tic-Tac-Toe game, playing against the computer
+## Goal:
+Build a simple Tic-Tac-Toe game, playing against the computer. 
 
-Flow:
+## Context and constraints:
+As part of the 30 day coding challenge, the aim isn't perfection, but to ship a project each day, spending a maximum of 3 hours/day. Due to the time limit, some design choices and constraints were made when defining the scope.
+
+## Design choices:
+1. No OOP
+2. Assign a mark to the player -> easier validation
+3. Static board
+
+## Project structure:
+
+Day1_Build_Tic_Tac_Toe_Game/
+├── README.md
+├── notes_to_self.md
+└── src/
+    └── main.py
+
+## Flow:
 1. Game initialization
 2. Welcome screen
 3. Assign X or O to the player
@@ -16,7 +33,7 @@ Flow:
 7. Display winner or tie
 8. Ask the player if they want to play again
 
-Tasks:
+## Tasks:
 1. Display the board
 2. Handle player input and mark it on the board
 3. Validate player input (check for occupied or invalid positions)
@@ -27,3 +44,16 @@ Tasks:
    - No empty spaces left on the board
 7. Announce the winner or tie
 8. Offer a replay option
+
+## Features Implemented:
+- CLI-based gameplay
+- Input validation
+- Win condition checking
+- Tie detection
+- Basic AI strategy:
+  - Win if possible
+  - Block opponent
+  - Take corner
+  - Take center
+  - Take edge
+- Replay option
