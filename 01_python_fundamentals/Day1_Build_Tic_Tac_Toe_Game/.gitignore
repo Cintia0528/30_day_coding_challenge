@@ -1,0 +1,9 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Screenshots / external image folder
+Git Code Bits/
+
+# Python cache
+__pycache__/
+*.pyc
